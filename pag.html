@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autos Clásicos</title>
+    <style>
+        /* Estilos para las imágenes */
+        img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        /* Estilos para los enlaces "ver más" */
+        a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #e67e22; /* Color naranja */
+            color: #fff; /* Texto blanco */
+            text-decoration: none;
+            border-radius: 25px; /* Bordes redondeados */
+            font-weight: 500;
+            font-size: 1em;
+            transition: all 0.3s ease; /* Transición suave */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        }
+
+        /* Efecto hover */
+        a:hover {
+            background-color: #d35400; /* Naranja más oscuro */
+            transform: translateY(-3px); /* Efecto de levitación */
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+        }
+
+        /* Efecto activo (cuando se hace clic) */
+        a:active {
+            transform: translateY(0); /* Vuelve a su posición original */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra más pequeña */
+        }
+    </style>
+
+
+
+
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Estilos del menú de navegación */
+        nav {
+            background-color: #2c3e50; /* Fondo oscuro */
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Espacio entre los botones */
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            color: #ecf0f1; /* Texto claro */
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: 500;
+            padding: 10px 20px;
+            border-radius: 25px; /* Bordes redondeados */
+            transition: all 0.3s ease;
+            background-color: #34495e; /* Fondo del botón */
+            display: inline-block;
+        }
+
+        /* Efecto hover */
+        nav ul li a:hover {
+            background-color: #e67e22; /* Naranja al pasar el mouse */
+            color: #fff;
+            transform: translateY(-3px); /* Efecto de levitación */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra al pasar el mouse */
+        }
+
+        /* Efecto activo (cuando se hace clic) */
+        nav ul li a:active {
+            transform: translateY(0); /* Vuelve a su posición original */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra más pequeña */
+        }
+
+        /* Estilo para el botón activo (opcional) */
+        nav ul li a.active {
+            background-color: #e67e22; /* Naranja */
+            color: #fff;
+        }
+
+        /* Estilos para las secciones */
+        section {
+            padding: 60px 20px;
+            min-height: 100vh; /* Cada sección ocupa al menos el alto de la pantalla */
+        }
+
+        #inicio {
+            background-color: #f4f4f4; /* Fondo claro */
+        }
+
+        #galeria {
+            background-color: #ffffff; /* Fondo blanco */
+        }
+
+        #historia {
+            background-color: #f4f4f4; /* Fondo claro */
+        }
+
+        #contacto {
+            background-color: #ffffff; /* Fondo blanco */
+        }
+    </style>
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#historia">Historia</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+
+
+
+
+    
+
+    <!-- Sección de Inicio -->
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <h1>Bienvenido a Autos Clásicos</h1>
+        <p>Descubre la historia, el diseño y la ingeniería detrás de los autos clásicos más icónicos de todos los tiempos. Explora nuestra galería, conoce sus historias y sumérgete en el fascinante mundo de los vehículos que marcaron época.</p>
+
+        <section id="inicio">
+            <h1>Bienvenido a Autos Clásicos</h1>
+            <p>Descubre la historia, el diseño y la ingeniería detrás de los autos clásicos más icónicos de todos los tiempos. Explora nuestra galería, conoce sus historias y sumérgete en el fascinante mundo de los vehículos que marcaron época.</p>
+        
+            <h2>Algunos de Nuestros Favoritos</h2>
+            <div class="autos-destacados">
+                <div>
+                    <img src="imagenes/chevron air.jpeg" alt="Chevrolet Bel Air">
+                    <p>Chevrolet Bel Air (1957)</p>
+                </div>
+                <div>
+                    <img src="imagenes/ford mustang.jpeg" alt="Ford Mustang">
+                    <p>Ford Mustang (1965)</p>
+                </div>
+                <div>
+                    <img src="imagenes/jaguar e-type.jpeg" alt="Jaguar E-Type">
+                    <p>Jaguar E-Type (1961)</p>
+                </div>
+            </div>
+        
+            <h2>¿Qué es un Auto Clásico?</h2>
+            <p>Los autos clásicos son vehículos que han resistido el paso del tiempo, no solo por su diseño atemporal, sino también por su ingeniería innovadora y su impacto cultural. Estos autos representan una era dorada de la industria automotriz y continúan siendo admirados por coleccionistas y entusiastas de todo el mundo.</p>
+        
+            <h2>Explora Nuestra Colección</h2>
+            <p>¿Listo para sumergirte en el mundo de los autos clásicos? Visita nuestra galería y descubre las historias detrás de estos vehículos legendarios.</p>
+            <a href="#galeria" class="boton">Ver Galería</a>
+        
+            <h2>¿Sabías Que?</h2>
+            <ul>
+                <li>El Volkswagen Beetle fue diseñado por Ferdinand Porsche.</li>
+                <li>El Ford Mustang se lanzó en 1964 y vendió más de 1 millón de unidades en sus primeros 18 meses.</li>
+                <li>El Jaguar E-Type fue descrito por Enzo Ferrari como "el auto más bello jamás construido".</li>
+            </ul>
+        
+            <blockquote>
+                <p>"Un auto clásico no es solo un medio de transporte, es una obra de arte sobre ruedas."</p>
+                <footer>— Coleccionista Anónimo</footer>
+            </blockquote>
+        </section>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Sección de Galería -->
+    <section id="galeria">
+        <h2>Galería</h2>
+        <p>Explora nuestra galería de autos clásicos.</p>
+        <img src="imagenes/chevron air.jpeg" alt="Chevrolet Bel Air">
+<a href="https://en.wikipedia.org/wiki/Chevrolet_Bel_Air">ver más</a>
+
+<img src="imagenes/ferrari 250.jpeg" alt="Ferrari 250 GTO">
+<a href="https://en.wikipedia.org/wiki/Ferrari_250_GTO">ver más</a>
+
+<img src="imagenes/ford mustang.jpeg" alt="Ford Mustang">
+<a href="https://en.wikipedia.org/wiki/Ford_Mustang_(first_generation)">ver más</a>
+
+<img src="imagenes/jaguar e-type.jpeg" alt="Jaguar E-Type">
+<a href="https://en.wikipedia.org/wiki/Jaguar_E-Type">ver más</a>
+
+<img src="imagenes/porshe 911.jpeg" alt="Porsche 911">
+<a href="https://en.wikipedia.org/wiki/Porsche_911">ver más</a>
+
+<img src="imagenes/wolsvagen.jpeg" alt="Volkswagen Beetle">
+<a href="https://en.wikipedia.org/wiki/Volkswagen_Beetle">ver más</a>
+
+<img src="imagenes/alfa romeo.jpeg" alt="Alfa Romeo Spider">
+<a href="https://en.wikipedia.org/wiki/Alfa_Romeo_Spider">ver más</a>
+
+<img src="imagenes/aston martin.jpeg" alt="Aston Martin DB5">
+<a href="https://en.wikipedia.org/wiki/Aston_Martin_DB5">ver más</a>
+
+<img src="imagenes/bmw.jpeg" alt="BMW 2002">
+<a href="https://en.wikipedia.org/wiki/BMW_02_Series">ver más</a>
+
+<img src="imagenes/roll royce.jpeg" alt="Rolls-Royce Silver Cloud">
+<a href="https://en.wikipedia.org/wiki/Rolls-Royce_Silver_Cloud">ver más</a>
+
+<img src="imagenes/mercedez benz.jpeg" alt="Mercedes-Benz 300SL">
+<a href="https://en.wikipedia.org/wiki/Mercedes-Benz_300_SL">ver más</a>
+
+<img src="imagenes/maserati.jpeg" alt="Maserati Ghibli">
+<a href="https://en.wikipedia.org/wiki/Maserati_Ghibli">ver más</a>
+
+<img src="imagenes/lamborghini.jpeg" alt="Lamborghini Miura">
+<a href="https://en.wikipedia.org/wiki/Lamborghini_Miura">ver más</a>
+    </section>
+
+    <!-- Sección de Historia -->
+    <section id="historia">
+        <h2>Historia</h2>
+        <p>Descubre la historia detrás de los autos clásicos más famosos.
+
+            <h3>Evolución de los Autos Clásicos</h3> <img src="imagenes/aston martin.jpeg" alt="">
+            <p>Desde los primeros automóviles de principios del siglo XX hasta los muscle cars de los años 60 y 70, los autos clásicos han evolucionado en diseño, tecnología y rendimiento. Cada década trajo consigo innovaciones que marcaron hitos en la historia del automóvil.</p>
+
+
+
+            <h3>Los Años 50: La Era del Estilo</h3> <img src="imagenes/chevron air.jpeg" alt="">
+            <p>Los años 50 fueron una época de exuberancia y estilo. Autos como el Chevrolet Bel Air y el Cadillac Eldorado destacaron por sus diseños llamativos y detalles cromados.</p>
+            
+            <h3>Los Años 60: Nacimiento de los Muscle Cars</h3>
+            <p>La década de los 60 vio el surgimiento de los muscle cars, como el Ford Mustang y el Dodge Charger, que combinaban potencia y estilo a un precio accesible.</p>
+            
+            <h3>Los Años 70: Innovación y Lujo</h3>
+            <p>En los años 70, marcas como Porsche y Ferrari introdujeron autos deportivos que combinaban lujo y alto rendimiento, como el Porsche 911 y el Ferrari 308 GTB.</p>
+
+
+            <h3>Ford</h3> <img src="imagenes/ford mustang.jpeg" alt="">
+            <p>Ford revolucionó la industria con el Model T en 1908, el primer auto producido en masa. En los años 60, el Ford Mustang se convirtió en un ícono cultural.</p>
+            
+            <h3>Chevrolet</h3> <img src="imagenes/chevron air.jpeg" alt="">
+            <p>Chevrolet es conocida por modelos como el Bel Air y el Corvette, que han dejado una huella imborrable en la historia del automóvil.</p>
+            
+            <h3>Ferrari</h3> <img src="imagenes/ferrari 250.jpeg" alt="">
+            <p>Ferrari ha sido sinónimo de lujo y rendimiento desde su fundación en 1947. Modelos como el 250 GTO y el Testarossa son leyendas en el mundo del automovilismo.</p>
+
+
+
+
+            <h3>Curiosidades</h3>
+<ul>
+    <li>El Volkswagen Beetle fue diseñado por Ferdinand Porsche y se convirtió en uno de los autos más vendidos de la historia.</li>
+    <li>El Ford GT40 fue creado específicamente para vencer a Ferrari en las 24 Horas de Le Mans.</li>
+    <li>El Jaguar E-Type fue descrito por Enzo Ferrari como "el auto más bello jamás construido".</li>
+</ul>
+        </p>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta? ¡Contáctanos!</p>
+    </section>
+
+    <!-- Script para resaltar el enlace activo -->
+    <script>
+        // Selecciona todos los enlaces del menú
+        const enlaces = document.querySelectorAll('nav a');
+
+        // Función para resaltar el enlace activo
+        function resaltarEnlaceActivo() {
+            const scrollPos = window.scrollY;
+
+            enlaces.forEach(enlace => {
+                const seccion = document.querySelector(enlace.getAttribute('href'));
+                if (seccion.offsetTop <= scrollPos + 100 && seccion.offsetTop + seccion.offsetHeight > scrollPos) {
+                    enlace.classList.add('active');
+                } else {
+                    enlace.classList.remove('active');
+                }
+            });
+        }
+
+        // Escucha el evento de scroll
+        window.addEventListener('scroll', resaltarEnlaceActivo);
+    </script>
+</body>
+</html>
